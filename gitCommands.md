@@ -12,7 +12,7 @@ git add <file>
 
 // 4.将文件提交到git仓库
 // 提交完成侯，提升"nothing to commit, working tree clean"
-git commit -m "text commit"
+git commit -m "text commit"  // "text commit"类似于备注
 
 // 5.查看git仓库提交日志
 git log
@@ -37,10 +37,15 @@ git clone https://github.com/WhYiWhYi/Learning.git
 ```
 2. 将本地（git）仓库新增的内容同步到远程（github）仓库
 ```
+// 本体新增的仓库需要先进行初始化步骤
+
 // 首先对新增的内容进行add和commit
 git add <file>
 git commit -m "text commit"
 
 // 提交至远程仓库
-git push origin master
+git push
+
+// 将本地仓库指定分支推送到远程仓库的指定分支
+git push <远程仓库的别名> <本地分支名>:<远程分支名>
 ```
