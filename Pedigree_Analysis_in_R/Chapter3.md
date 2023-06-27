@@ -46,7 +46,7 @@ IBD系数与亲缘系数的关系为：
 |Full sibilings(FS)|1/4|1/2|1/4|
 |Half siblings(H)|1/2|1/2|0|
 |Uncle-niece, etc.(U)|1/2|1/2|0|
-|Grandparent-grandchild(G)||1/2|1/2|0|
+|Grandparent-grandchild(G)|0|1/2|1/2|
 |First cousins(FC)|3/4|1/4|0|
 
 可以看到H、U、G具有相同的IBD系数。在大多数情况下，具有相同κ的关系在遗传上是无法区分的。例如，H、U和G无法通过标准的法医亲属关系鉴定进行区分。Chapter4中将提到，其实该三种关系在遗传学上存在微妙差异，但难以应用。
@@ -55,5 +55,6 @@ IBD系数与亲缘系数的关系为：
 
 身份系数与IBD系数的关系为：
 Δ7 = κ2， Δ8 = κ1， Δ9 = κ0
+
 ### 3.6 Constructibility of KAPPA (from IBD coefficients)
 Karigl提出，对于IBD三角中不在不允许区域内（见3.4）的任意一个点κ\*，存在一个包含成员A和成员B的家系P，使得κAB = κ\*。也即若允许设置无限家系（允许κ的值为无理数。若为有限家系，则κ的值只能为有理数而不能覆盖），则总能构建一个与除IBD三角不允许区域外某一点相对应的关系
