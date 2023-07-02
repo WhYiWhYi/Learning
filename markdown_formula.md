@@ -54,6 +54,7 @@
 	|$\emptyset$|\emptyset|$\varnothing$|\varnothing|$\in$|\in|$\notin$|\notin|
 	|$\subset$|\subset|$\supset$|\supset|$\cup$|\cup|$\cap$|\cap|
 	|$\subseteq$|\subseteq|$\supseteq$|\supseteq|$\subsetneq$|\subsetneq|$\supsetneq$|\supsetneq|
+	|$\vee$|\vee|$\wedge$|\wedge|
 	|$\bigcup$|\bigcup|$\bigcap$|\bigcap|$\bigvee$|\bigvee|$\bigwedge$|\bigwedge|
 	|$\uplus$|\uplus|$\biguplus$|\biguplus|$\sqcup$|\sqcup|$\bigsqcup$|\bigsqcup|
 * 对数运算符
